@@ -1,0 +1,17 @@
+{
+  "1": {
+    "option_a": "pet unicorn",
+    "option_b": "pet dragon",
+    "selected_option": "option_b"
+  },
+  "2": {
+    "option_a": "flying car",
+    "option_b": "teleportation device",
+    "selected_option": "option_b"
+  },
+  "3": {
+    "option_a": "invisibility cloak",
+    "option_b": "time travel machine",
+    "selected_option": "option_b"
+  }
+}
