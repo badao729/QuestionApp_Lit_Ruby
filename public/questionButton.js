@@ -52,6 +52,7 @@ export class QuestionButton extends LitElement {
     this.content = 'Question';
     this.questionId = '';
   }
+
   render() {
     return html`
       <button @click=${this.loadQuestion}><span>?</span>${this.content}</button>
@@ -65,8 +66,9 @@ export class QuestionButton extends LitElement {
     // Reset selected button
     if (QuestionButton.selectedButton) {
       QuestionButton.selectedButton.classList.remove('clicked');
-      const previousSpan = QuestionButton.selectedButton.querySelector('span');
-      if (previousSpan) {
+      
+    const previousSpan = QuestionButton.selectedButton.querySelector('span');
+    if (previousSpan) {
         previousSpan.classList.remove('clicked');
       }
     }
